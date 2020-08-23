@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
 	<title>List Players</title>
 	
@@ -13,19 +12,23 @@
 	<link type="text/css"
 		  rel="stylesheet"
 		  href="${pageContext.request.contextPath}/resources/css/style.css" />
-
+		 
 </head>
 
 <body>
 
 	<div id="wrapper">
 		<div id="header">
+		
+		<img src="${pageContext.request.contextPath}/resources/logo.jpg"  height="65" width="70"/>
+		
 			<h2>CSK Team Management</h2>
 		</div>
 	</div>
+	
 	<br>
 	<input type="button" value="Add New Player " onclick="window.location.href='showForAdd'; return false" class="add-button" />
-		<input type="button" value="Sort by Matches Played" onclick="window.location.href='showSort'; return false" class="add-button" />
+		<input type="button" value="Sort by NofMatches" onclick="window.location.href='showSort'; return false" class="add-button" />
 	
 	<div id="container">
 	
